@@ -1,5 +1,17 @@
 .main-container{
-    background-color:purple;
+    background-color:rgb(169, 132, 169);
     height:90vh;
-    margin:20px
+    width:90vw;
+    display: flex;
+    border-radius: 50%;
+}
+
+.sidebar-container{
+    background-color: red;
+    flex: 0.3;
+}
+
+.workarea-container{
+    background-color: blue;
+    flex: 0.7;
 }
